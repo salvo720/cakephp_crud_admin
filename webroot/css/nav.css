@@ -1,0 +1,23 @@
+/* <!--------- NAVBAR ---------------> */
+.navbar-brand,
+.navbar-nav > li > a {
+  height:75px;  
+  line-height: 60px;  
+}
+
+.navbar-brand{
+  max-height: 75px;  
+}
+
+@media (min-width: 992px){
+.nav-link{
+
+    margin:auto;
+}
+}
+
+@media (min-width: 1920px),(min-width: 1000px){
+    .nav-link{
+    margin-left:150px;
+}
+}

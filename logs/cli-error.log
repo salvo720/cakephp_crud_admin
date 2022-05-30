@@ -1,0 +1,60 @@
+2021-01-08 12:09:56 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+ in C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+',
+)
+Stack Trace:
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\salvo\cakephp progetti\provasito\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+ in C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\salvo\cakephp progetti\provasito\bin\cake.php:12
+
+
+
+2021-01-08 19:34:36 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in [C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Core\functions.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 258
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 122
+[main] - [internal], line ??
+
+2021-01-08 19:34:36 Error: [Cake\Error\FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Core\functions.php on line 122
+Stack Trace:
+- C:\Users\salvo\cakephp progetti\provasito\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php:122
+- [main] - [internal], line ??
+
+
